@@ -2,7 +2,7 @@
 
 This is a modern, responsive personal profile card built with **HTML, CSS, and JavaScript**. It's perfect for showcasing your portfolio, contact links, and favorite tools on a single beautiful card.
 
-![alt text](src/img/127.0.0.1_5500_.png)
+![alt text](src/img/screenshot.png)
 
 ## ✨ Features
 
