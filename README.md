@@ -6,7 +6,6 @@ This is a modern, responsive personal profile card built with **HTML, CSS, and J
 
 ## ✨ Features
 
-- 🔥 Gradient glow background
 - 👨‍💻 Developer avatar
 - 🎨 Tool badges (Adobe Suite)
 - 🔗 Interactive contact links with icons
@@ -22,8 +21,8 @@ This is a modern, responsive personal profile card built with **HTML, CSS, and J
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/developer-profile-card.git
-   cd developer-profile-card
+   git clone https://github.com/pawanhirumina/simple-profile-card.git
+   cd simple-profile-card
    ```
 2. Open index.html in your browser.
 
