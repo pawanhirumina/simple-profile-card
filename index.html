@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="description" content="This is Chamuditha Dilakshana's linktree website, Where you can find the all social media links ">
+  <meta name="keywords" content="Chamuditha Dilakshana, Photographer, Graphics Designer, Chamu, Chamuwa">
+  <title>Pawan Hirumina | Web Developer</title>
+</head>
+<body>
+
+  <div id="overlay" class="overlay">
+      <img id="fullscreenImage" loading="lazy"  height="auto" src="./src/img/profile_img.png" alt="Full Screen Image">
+  </div>  
+
+
+
+
+  <div class="card" id="card">
+
+    <div class="card_contents" id="card-contents">
+
+      <div class="card_header">
+        <div class="profile_image">
+          <img src="./src/img/profile_img.png" id="thumbnail" alt="profile-image" id="profile-img" width="100" height="auto">
+        </div>
+        <div class="profile_d">
+          <div>
+            <span class="profile_name">Pawan Hirumina</span><br>
+
+          </div>
+          <div>
+
+            <span class="profile_role">Web Developer</span><br>
+          </div>
+          <div id="skillIconsContainer">
+
+            <img width="22" height="auto" loading="lazy" id="sfi" src="./src/icons/Photoshop.svg" alt="Photoshop" title="Photoshop">
+            <img width="22" height="auto" loading="lazy" id="sfi" src="./src/icons/Illustrator.svg" alt="Illustrator" title="Illustrator">
+            <img width="22" height="auto" loading="lazy" id="sfi" src="./src/icons/AfterEffects.svg" alt="AfterEffects" title="AfterEffects">
+            <img width="22" height="auto" loading="lazy" id="sfi" src="./src/icons/Premiere.svg" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+      </div>
+    
+      <div class="card_body">
+          <ul>
+            <li><a href="#" role="button" class="link-btn"><span>Github</span> <i class="fa-brands fa-github"></i></a></li>
+            <li><a href="#" role="button" class="link-btn"><span>Instagram</span> <i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#" role="button" class="link-btn"><span>Email</span> <i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#contact" aria-label="Contact Me" onclick="openContact()" class="link-btn"><span>Contact</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+          </ul>
+      </div>
+
+
+
+</div>
+
+<div class="overly"></div>
+      <div class="card_contact" id="contact-page">
+       <form action="https://api.web3forms.com/submit" method="POST" id="form" autocomplete="on" novalidate>
+        <input type="hidden" name="access_key" value="YOUR_API_KEY">
+
+        <div class="form_content">
+
+         <div class="input_container">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="enter your name">
+            <span class="error-text" id="nameError"></span>
+          </div>
+
+          <div class="input_container">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="enter your email">
+            <span class="error-text" id="emailError"></span>
+          </div>
+
+
+
+          <div class="input_container">
+            <label for="msg">Message</label>
+            <textarea name="message" id="message" placeholder="enter your message"></textarea>
+            <span class="error-text" id="messageError"></span>
+          </div>
+
+          <div class="input_container">
+            <!-- <div id="successMessage" class="success-message"></div> -->
+            <button type="submit" id="submit">Send</button>
+            <button  onclick="closeContact()" type="button" class="close-btn" id="close-btn">Close</button>
+          </div>
+          
+        </div>
+      </form>
+
+
+      <div class="success_page" id="success_page">
+        <div class="succes_content">
+          <div id="responseBox" class="response-box">
+            <div class="response-title" id="responseTitle"></div>
+            <div class="response-description" id="responseDesc"></div>
+            <button onclick="closeSuccess()">Close</button>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+ 
+    </div>
+
+
+
+
+  </div>
+  <script src="./src/scripts/main.js" defer></script>
+  <script src="./src/scripts/form.js" defer></script>
+  <script src="./src/scripts/Notfound.js" defer></script>
+</body>
+</html>

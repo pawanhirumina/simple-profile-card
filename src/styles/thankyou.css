@@ -1,0 +1,94 @@
+@import url("../styles/reset.css");
+@import url("../fonts/fonts.css");
+:root {
+  --clr-red: #ff605c;
+  --clr-blue: #007aff;
+  --clr-green: #34c759;
+  --clr-grey: #d1d1d17e;
+  --clr-white: #fff;
+  --clr-blck: rgba(20, 20, 20, 1);
+  --clr-blck-transparent: rgba(20, 20, 20, 0.7);
+  --filter-blur2x-: blur(2px);
+}
+
+* {
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    font-size: 16px;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/background_img.webp");
+    background-position: center;
+    background-size: cover;
+  }
+  .card {
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    backdrop-filter: var(--filter-blur2x-);
+    background-color: var(--clr-blck-transparent);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    animation: card 3s forwards linear;
+  }
+
+.success_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: var(--clr-blck);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .succes_content {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .success_page img {
+    width: 40px;
+    fill: white;
+    margin: 0 auto;
+  }
+  .success_page span {
+    font-size: 1rem;
+    color: var(--clr-white);
+  }
+  .success_page P {
+    font-size: calc(1rem - 2px);
+    line-height: 1rem;
+    color: var(--clr-grey);
+  }
+  .success_page button {
+    width: 100%;
+    border: none;
+    font-size: 13.33px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+    color: #ff605c;
+    background: rgb(255, 96, 92, 0.15);
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .success_page button:hover {
+    opacity: 0.8;
+  }
