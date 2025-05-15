@@ -51,7 +51,7 @@ This is a modern, responsive personal profile card built with **HTML, CSS, and J
 </div>
 ```
 
-- Reolace the `YOUR_API_KEY` in the contact form with your own `WEB3FORMS` Api Key
+- Replace the `YOUR_API_KEY` in the contact form with your own `WEB3FORMS` Api Key
 
 ```html
 <div class="card_contact" id="contact-page">
@@ -62,10 +62,7 @@ This is a modern, responsive personal profile card built with **HTML, CSS, and J
     autocomplete="on"
     novalidate
   >
-    <input 
-    type="hidden" 
-    name="access_key" 
-    value="YOUR_API_KEY" />
+    <input type="hidden" name="access_key" value="YOUR_API_KEY" />
   </form>
 </div>
 ```
